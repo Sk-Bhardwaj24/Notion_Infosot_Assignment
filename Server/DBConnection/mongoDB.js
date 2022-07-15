@@ -7,7 +7,7 @@ class Mongo {
 
   createMongoConnection() {
     mongoose.connect(
-      `mongodb+srv://masaiUser:MRNd405MkhMzT48T@cluster1.j5h2y.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
+      "mongodb+srv://saurabh24:0vIgrRY33DtOX3ok@cluster0.3nbnv.mongodb.net/?retryWrites=true&w=majority"
     );
     // mongoose.connect("mongodb://masaiUser:masaipassword@localhost:27017/masai"); //this is for localdatabase
 
