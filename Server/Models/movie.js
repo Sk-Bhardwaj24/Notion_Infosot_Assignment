@@ -5,6 +5,7 @@ const movie = new mongoose.Schema({
   movie_Title: { type: String, required: true },
   movie_Rating: { type: String, required: true },
   movie_Category: { type: String, required: true },
+  movie_Price: { type: String, required: true },
 });
 
 module.exports = mongoose.model("movie", movie);

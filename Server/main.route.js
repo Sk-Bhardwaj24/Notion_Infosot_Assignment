@@ -1,9 +1,11 @@
 const express = require("express");
 const app = express();
 const adminRoute = require("./Routes/admin.route.js");
+const movieRoute = require("./Routes/movie.route.js");
 var cors = require("cors");
 const bodyParser = require("body-parser");
 app.use(cors());
 app.use(bodyParser.json([]));
 app.use("/admin", adminRoute);
+app.use("/movie", movieRoute);
 module.exports = app;
