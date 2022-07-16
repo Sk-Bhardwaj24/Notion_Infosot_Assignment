@@ -170,7 +170,7 @@ _id=62d1f904d87ba13ffddb7c8a<br>
 
 # Home Page for user , Here user Can see tha all movie Data
 
-<h3> User cannot have acces of other option like Delete Movie, Edit Movies, Add Movie</h3>
+<h3> User cannot have access of other option like Delete Movie, Edit Movies, Add Movie</h3>
 <img src="./Images/Rea1.png" alt="Home Page"/>
 
 # Login page for Admin
