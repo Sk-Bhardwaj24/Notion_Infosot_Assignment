@@ -11,7 +11,7 @@
 
   # Admin Login
 
-  - <h2>Post
+  - <h2> Method:Post</h2>
 
 url:- Base_URL + admin/login
 <br>
@@ -42,7 +42,7 @@ url:- Base_URL + admin/login
 
 # Admin Register
 
-- <h2>Post
+- <h2> Method:Post<h2>
 
 url:- Base_URL + admin/create
 <br>
@@ -74,7 +74,7 @@ url:- Base_URL + admin/create
 
 # Get movie
 
-<h2>Get
+<h2>Method:Get</h2>
  url:- Base_URL +movie/
  <br>
  <h1>Response</h1>
@@ -92,3 +92,78 @@ url:- Base_URL + admin/create
         },<br>
           ]<br>
 }
+
+<br>
+
+# Create Movie
+
+<h2>Method:POST</h2>
+ url:- Base_URL +/create
+ <br>
+ <h1>Response</h1>
+ <br>
+ <h3>body</h3><br>
+ {<br>
+"movie_Name":"singham",<br>
+"movie_Title":"most powerFull person",<br>
+"movie_Rating":"8.9",<br>
+"movie_Category":"action",<br>
+"movie_Price":"400"<br>
+  }<br>
+  <h2>Response</h2><br>
+  {<br>
+    "status": true,<br>
+    "movie": [<br>
+        {<br>
+            "movie_Name": "singham",<br>
+            "movie_Title": "most powerFull person",<br>
+            "movie_Rating": "8.9",<br>
+            "movie_Category": "action",<br>
+            "movie_Price": "400",<br>
+            "_id": "62d1f904d87ba13ffddb7c8a",<br>
+            "__v": 0<br>
+        }<br>
+    ]<br>
+}<br>
+
+# Delete Movie
+
+<h2>Method:DELETE</h2><br>
+_id=62d13eed72b4b923d464abf4<br>
+ url:- Base_URL +deletemovie/`${_id}`<br>
+
+ <h2>Response</h2><br>
+{<br>
+    "status": true,<br>
+    "movie": {<br>
+        "acknowledged": true,<br>
+        "deletedCount": 1<br>
+    }<br>
+}<br>
+
+# Update Movie
+
+<h2>METHOD:PUT</h2><br>
+_id=62d1f904d87ba13ffddb7c8a<br>
+ url:- Base_URL +updatemovie/`${_id}`<br>
+ <h2>body</h2><br>
+ {<br>
+
+"movie_Price":"900"<br>
+}<br>
+
+<h1>Response</h2>
+   {<br>
+    "status": true,<br>
+    "movie": [<br>
+        {<br>
+            "movie_Name": "singham",<br>
+            "movie_Title": "most powerFull person",<br>
+            "movie_Rating": "8.9",<br>
+            "movie_Category": "action",<br>
+            "movie_Price": "900",<br>
+            "_id": "62d1f904d87ba13ffddb7c8a",<br>
+            "__v": 0<br>
+        }<br>
+    ]<br>
+}<br>
