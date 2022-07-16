@@ -1,0 +1,24 @@
+{
+  "movies": [
+    {
+      "name": "test",
+      "id": 1
+    },
+    {
+      "moviename": "",
+      "Title": "",
+      "rating": 0,
+      "Category": "",
+      "Price": 0,
+      "id": 2
+    },
+    {
+      "moviename": "King",
+      "Title": "test",
+      "rating": "2",
+      "Category": "action",
+      "Price": "200",
+      "id": 3
+    }
+  ]
+}
