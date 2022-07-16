@@ -167,3 +167,27 @@ _id=62d1f904d87ba13ffddb7c8a<br>
         }<br>
     ]<br>
 }<br>
+
+# Home Page for user , Here user Can see tha all movie Data
+
+<h3> User cannot have acces of other option like Delete Movie, Edit Movies, Add Movie</h3>
+<img src="./Images/Rea1.png" alt="Home Page"/>
+
+# Login page for Admin
+
+<h3> Here Admin can Login</h3>
+<img src="./Images/Rea2.png" alt="Login Page"/>
+
+# Loding Status
+
+<img src="./Images/rea4.jpeg" alt="Loding Page"/>
+
+# Create Movie
+
+<h3>Here Admin can Enter Movie to database</h3>
+<img src="./Images/rea5.jpeg" alt="movie create"/>
+
+# Edit Page
+
+<h3>Here Admin can Edit Movie's Field</h3>
+<img src="./Images/rea6.jpeg" alt="Edit Page">
