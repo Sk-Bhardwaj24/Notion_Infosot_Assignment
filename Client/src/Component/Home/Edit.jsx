@@ -26,7 +26,7 @@ function Edit() {
   const [formData, setFormData] = React.useState({
     movie_Name: updateData.movie_Name,
     movie_Title: updateData.movie_Title,
-    movie_Rating: updateData.movie_Category,
+    movie_Rating: updateData.movie_Rating,
     movie_Category: updateData.movie_Category,
     movie_Price: updateData.movie_Price,
   });
