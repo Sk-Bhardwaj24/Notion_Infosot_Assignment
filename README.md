@@ -178,7 +178,7 @@ _id=62d1f904d87ba13ffddb7c8a<br>
 <h3> Here Admin can Login</h3>
 <img src="./Images/Rea2.png" alt="Login Page"/>
 
-# Loding Status
+# Loading Status
 
 <img src="./Images/rea4.jpeg" alt="Loding Page"/>
 
